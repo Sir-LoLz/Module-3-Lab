@@ -2,14 +2,15 @@
 Car Classes
 Zachary Rosch
 
-This program
+This program accepts a users inputs that discribe a vechicle and
+    makes a new car object with those inputs. For this project it
+    is assumed a car is the selected vehicle type.
 
 '''
 
 
 
 class Vehicle:
-
 
     def __init__(self,type):
         self.type = type
@@ -39,7 +40,5 @@ Car = Automobile(
                  int(input("Input the number of doors :")),
                  str(input("Input the roof type :"))
                  )
-
-
 
 print(Car)
